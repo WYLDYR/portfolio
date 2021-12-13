@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       {/* Main bit of homepage, contains a lot about me */}
-      <div className="text-3xl mx-10 md:mx-32 flex flex-col align-left place-items-left h-screen w-screen bg-gradient-to-r from-indigo-100 via-red-100 to-yellow-100">
+      <div className="text-3xl mx-10 md:mx-32 flex flex-col align-left place-items-left h-screen w-screen bg-gray-900 text-[#cacaca]">
 
         <h1 className="text-6xl p-10 font-bold bg-clip-text text-transparent bg-gradient-to-b from-indigo-800 to-blue-600">About me</h1>
         <p className="mx-32">
@@ -42,10 +42,15 @@ export default function Home() {
           and looking forwards to learning more languages.
         </p>
 
-        <h1 className="text-6xl p-10 font-bold bg-clip-text text-transparent bg-gradient-to-b from-indigo-800 to-blue-600">Where to find me</h1>
-        <p className="mx-32">
-          TODO Add links to socials
-        </p>
+        <div className="flex flex-row justify-center items-center h-screen w-screen">
+          <a href="https://github.com/WYLDYR/portfolio" className="mx-10">
+            <img src="/github.svg" width="60"></img>
+          </a>
+          <a href="https://steamcommunity.com/profiles/76561199007727047/" className="mx-10">
+            <img src="/steam.svg" width="60"></img>
+          </a>
+          <p className="font-bold">WYLD#0326</p>
+        </div>
         
       </div>
 
