@@ -32,7 +32,7 @@ export default function Home() {
 
         <h1 className="text-6xl p-10 font-bold bg-clip-text text-transparent bg-gradient-to-b from-indigo-800 to-blue-600">About me</h1>
         <p className="mx-32">
-          Hi! I'm a highschool student from Colorado, interested in and studying computer science and cyber security.
+          Hi! I'm a high school student from Colorado, interested in and studying computer science and cyber security.
           <br></br>
           I'm proficent in
             <a className="text-[#f74a01]"> Rust</a>,
@@ -43,7 +43,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-row justify-center items-center h-screen w-screen">
-          <a href="https://github.com/WYLDYR/portfolio" className="mx-10">
+          <a href="https://github.com/WYLDYR" className="mx-10">
             <img src="/github.svg" width="60"></img>
           </a>
           <a href="https://steamcommunity.com/profiles/76561199007727047/" className="mx-10">
