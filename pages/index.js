@@ -37,6 +37,7 @@ export default function Home() {
           I'm proficent in
             <a className="text-[#f74a01]"> Rust</a>,
             <a className="text-[#659ad1]"> C++</a>,
+            <a className="text-[#0e3055]"> C</a>,
             <a className="text-[#3771a2]"> Python</a>, and
             <a className="text-[#dfca2d]"> Javascript</a>,
           and looking forwards to learning more languages.
